@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color:rgb(246, 248, 250);
+}
+.nav-item{
+ display: flex;
+ justify-content: space-evenly;
+ height: 100px;
+ width: 100%;
+
+}
+
+.logo-img{
+ 
+  padding: 10px;
+}
+
+
+
+
+.nav-list-item{
+    display: flex;
+   justify-content: flex-start;
+    list-style: none;
+    gap: 100px;
+    margin:10px;
+    padding: 30px;
+     
+}
+
+.nav-list-item>li{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.cart-btn{
+    margin: 15px;
+    padding: 10px;
+   
+}
